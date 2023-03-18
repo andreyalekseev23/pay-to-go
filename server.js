@@ -9,12 +9,8 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/', express.static('frontend/dist'))
+app.use('/', express.static('frontend/dist'));
 app.use('/api', router);
-
-app.post('/', (req,res) => {
-    res.status(200).json('Server worked');
-});
 
 async function startApp() {
     try {
