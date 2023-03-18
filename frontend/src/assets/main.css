@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Mont;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/Mont-SemiBold.ttf');
+}
+@font-face {
+  font-family: Mont;
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/fonts/Mont-Bold.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* ul,ol {
+  padding: 0;
+  list-style: none;
+}
+* button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: 'Mont', sans-serif;
+  font-weight: 700;
+  color: #252525;
+  line-height: 120%;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+:root {
+  --black: #000000;
+  --dark: #252525;
+  --grey: rgba(122, 122, 122, 0.45);
+  --orange: #E28800;
+  --red: #FF6161;
+  --green: #97BF24;
+}
+
+.v-expansion-panel-title {
+  min-height: 22px!important;
+  height: fit-content!important;
+  padding: 20px 0!important;
+}
+.v-expansion-panel-title__overlay {
+  height: fit-content!important;
+}
+.v-expansion-panel__shadow {
+  box-shadow: none!important;
+}
+.v-expansion-panel-text__wrapper {
+  padding: 0!important;
+}
+.v-expansion-panel-text {
+  width: 100%!important;
+}
